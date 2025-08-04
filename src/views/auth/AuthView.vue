@@ -1,5 +1,10 @@
 <template>
-       <RouterView/>
+       <div style="background-image: url('../../assets/images/Menu.png'); background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  ">
+              <RouterView/>
+       </div>
 </template>
 
 <script setup>

@@ -28,7 +28,9 @@
     </div>
     </div>
   </div> -->
-  <div class="w-full h-full">
+  <div class="w-full h-full" style="background-image: url('../../assets/images/Menu.png'); background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;">
     <Verify ref="verify"/>
      <div class="h-screen flex justify-center items-center">
        <div class="w-[41%] mx-auto">
@@ -88,7 +90,7 @@ const send = async (value) => {
       }
     }, 1000);
   }else{
-    modal = ""
+    modal.value = ""
   }
 }
 const btn_title = computed(()=>{
@@ -97,7 +99,7 @@ const btn_title = computed(()=>{
       }else {
             return "Ro'yhatdan o'tish"
       }
-})
+});
 </script>
 
 <style lang="scss" scoped></style>
